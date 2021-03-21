@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.cognizant.pharmacysupply.PharmacySupplyApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.043 s <<< FAILURE! - in com.cognizant.pharmacysupply.PharmacySupplyApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Either 'name' or 'value' must be provided in @FeignClient
+
